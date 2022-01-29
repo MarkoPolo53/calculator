@@ -423,21 +423,29 @@ void UnitConverterDataLoader::GetUnits(_In_ unordered_map<ViewMode, vector<Order
                                        GetLocalizedStringName(L"UnitName_NauticalMile"),
                                        GetLocalizedStringName(L"UnitAbbreviation_NauticalMile"),
                                        11 });
+    lengthUnits.push_back(OrderedUnit{ UnitConverterUnits::Length_NauticalLeague,
+                                       GetLocalizedStringName(L"UnitName_NauticalLeague"),
+                                       GetLocalizedStringName(L"UnitAbbreviation_NauticalLeague"),
+                                       12 });
+    lengthUnits.push_back(OrderedUnit{ UnitConverterUnits::Length_Fathom,
+                                       GetLocalizedStringName(L"UnitName_Fathom"),
+                                       GetLocalizedStringName(L"UnitAbbreviation_Fathom"),
+                                       13 });
     lengthUnits.push_back(
         OrderedUnit{ UnitConverterUnits::Length_Yard, GetLocalizedStringName(L"UnitName_Yard"), GetLocalizedStringName(L"UnitAbbreviation_Yard"), 9 });
     lengthUnits.push_back(OrderedUnit{ UnitConverterUnits::Length_Paperclip,
                                        GetLocalizedStringName(L"UnitName_Paperclip"),
                                        GetLocalizedStringName(L"UnitAbbreviation_Paperclip"),
-                                       12,
+                                       14,
                                        false,
                                        false,
                                        true });
     lengthUnits.push_back(OrderedUnit{
-        UnitConverterUnits::Length_Hand, GetLocalizedStringName(L"UnitName_Hand"), GetLocalizedStringName(L"UnitAbbreviation_Hand"), 13, false, false, true });
+        UnitConverterUnits::Length_Hand, GetLocalizedStringName(L"UnitName_Hand"), GetLocalizedStringName(L"UnitAbbreviation_Hand"), 15, false, false, true });
     lengthUnits.push_back(OrderedUnit{ UnitConverterUnits::Length_JumboJet,
                                        GetLocalizedStringName(L"UnitName_JumboJet"),
                                        GetLocalizedStringName(L"UnitAbbreviation_JumboJet"),
-                                       14,
+                                       16,
                                        false,
                                        false,
                                        true });
