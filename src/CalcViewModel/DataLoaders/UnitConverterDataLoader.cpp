@@ -856,6 +856,8 @@ void UnitConverterDataLoader::GetConversionData(_In_ unordered_map<ViewMode, uno
                                                    { ViewMode::Length, UnitConverterUnits::Length_Meter, 1 },
                                                    { ViewMode::Length, UnitConverterUnits::Length_Kilometer, 1000 },
                                                    { ViewMode::Length, UnitConverterUnits::Length_NauticalMile, 1852 },
+                                                   { ViewMode::Length, UnitConverterUnits::Length_NauticalLeague, 5556 },
+                                                   { ViewMode::Length, UnitConverterUnits::Length_Fathom, 1.8288 },
                                                    { ViewMode::Length, UnitConverterUnits::Length_Paperclip, 0.035052 },
                                                    { ViewMode::Length, UnitConverterUnits::Length_Hand, 0.18669 },
                                                    { ViewMode::Length, UnitConverterUnits::Length_JumboJet, 76 },
